@@ -11,7 +11,7 @@ int main(void)
     //a = malloc(na * sizeof(int));
     
     if(a == NULL){
-        printf("Error");
+        printf("Error\n");
         exit(0);
     }
     
