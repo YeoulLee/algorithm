@@ -37,6 +37,8 @@ int main(void)
     else{
         printf("Key found at index %d\n", index);
     }
+    
+    free(a);
         
     return 0;
 }
