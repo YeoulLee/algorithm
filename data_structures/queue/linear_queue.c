@@ -2,8 +2,8 @@
 #define MAX_CAPACITY 10
 
 int Queue[MAX_CAPACITY];
-int front = 0;
-int rear = 0;
+int front = -1;
+int rear = -1;
 
 void initialize(){
     front = -1;
