@@ -1,4 +1,5 @@
 # Structure
+## C
 
 ```c
 // Structure declaration
@@ -49,3 +50,16 @@ typedef struct structTag {
 structAlias structureVariable;
 structAlias *structurePointer = &structureVariable;
 ```
+
+## C++
+
+```c++
+struct structName {
+    dataType memberVariable1;
+    dataType memberVariable2;
+    ...
+};
+
+structName structureVariable;
+```
+    
